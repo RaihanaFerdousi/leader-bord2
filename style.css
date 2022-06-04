@@ -1,31 +1,40 @@
 /* stu;e start */
 
 /* .player h3{
-
     padding-left: 5px;
 } */
-/* font-famely's place */
+/* .player{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+/* u-or-f*/
 body{
 font-family: 'Poppins', sans-serif;
 background-color: #E5E5E5;
+}
+.top-players h4{
+    color: blue;
+}
+.container{
+    background-color: #ffffff;
+    
+    
 }
 /* top player style */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.player{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .player img{
     width: 56px;
     height: 56px;
     
 }
-players{
-
-}
+.player{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
